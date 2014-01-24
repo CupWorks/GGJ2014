@@ -3,11 +3,16 @@ using UnityEngine;
 
 namespace Library
 {
-	public class System
+	public class System : MonoBehaviour
 	{
 		public System()
 		{
 			EventBus.Register(Events.CHANGE_SCENE, ChangeScene);
+		}
+
+		public void Awake()
+		{
+			DontDestroyOnLoad(gameObject);
 		}
 
 		public void ChangeScene(object data)
@@ -20,11 +25,23 @@ namespace Library
 					Application.LoadLevel("Main");
 					break;
 				case 1:
-					Application.LoadLevel("Level");
+					Application.LoadLevel("Dialog");
 					break;
 				default:
 					Debug.Log("Can't load level with ID: " + scene);
 					break;
+			}
+		}
+
+		public void OnGUI()
+		{
+			if (GUILayout.Button("Scene Main"))
+			{
+				EventBus.Push(Events.CHANGE_SCENE, 0);
+			}
+			if (GUILayout.Button("Scene Dialog 1"))
+			{
+				EventBus.Push(Events.CHANGE_SCENE, 0);
 			}
 		}
 	}
