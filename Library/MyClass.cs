@@ -14,9 +14,8 @@ namespace Library
 		{
 			EventBus.Register(0, Foo);
 			EventBus.Push(0, "Foo");
-
-			Serializer.Serialize<DialogScene>("DialogScene.xml", new DialogScene() { DialogTexts = { new DialogueText(), new DialogueText() } });
-			Debug.Log(Serializer.Deserialize<DialogScene>("DialogScene.xml").DialogTexts.Count);
+	
+			Debug.Log(Serializer.Deserialize<DialogScene>("DialogScene_1.xml").DialogTexts.Count);
 		}
 
 		public void Foo(object data)

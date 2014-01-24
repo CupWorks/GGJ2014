@@ -2,11 +2,9 @@ using System;
 
 namespace Library
 {
-    public class EmptyClass
-    {
-        public EmptyClass()
-        {
-        }
-    }
+	public class Events
+	{
+		public const int CHANGE_SCENE = 10000;
+	}
 }
 
