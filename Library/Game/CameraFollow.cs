@@ -18,13 +18,7 @@ namespace Library
 	{
 
 		[SerializeField] List<GameObject> targets = new List<GameObject>();
-		Vector3 spacing = Vector3.zero;
-
-		void Awake () 
-		{
-			spacing = transform.position;
-		}
-
+		[SerializeField] float zOffset = 2;
 		void LateUpdate () 
 		{	
 			GameObject[] targets = this.targets.ToArray();
@@ -35,13 +29,10 @@ namespace Library
 		
 			float distance = DistanceTo(targets,position);
 			float speed = velocity.magnitude * Time.deltaTime;
-		
-			position.x += direction.x * spacing.x;
-			position.z = spacing.z;
-			position.y += spacing.y;
 
-			camera.orthographicSize = distance - spacing.z + speed;
-			transform.position = Vector3.Lerp(transform.position,position,speed);
+			camera.orthographicSize = Mathf.Lerp(camera.orthographicSize,distance /zOffset,Time.deltaTime);
+			position.z = transform.position.z;
+			transform.position = Vector3.Lerp(transform.position,position,Time.deltaTime);
 		}
 
 		Vector3 CenterOf(GameObject[] targets)
@@ -92,18 +83,6 @@ namespace Library
 	public void RemoveTarget(GameObject target)
 	{
 		targets.Remove(target);
-	}
-	
-	public Vector3 Spacing
-	{
-		get
-		{
-			return spacing;
-		}
-		set
-		{
-			spacing = value;
-		}
 	}
 	}
 }

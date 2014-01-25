@@ -113,6 +113,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7856f959110204070a1b10923c6fc36e, type: 2}
+      propertyPath: dialog
+      value: 
+      objectReference: {fileID: 100000, guid: 3a6ebe2d7fae541098c86008ae8d0448, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7856f959110204070a1b10923c6fc36e, type: 2}
   m_RootGameObject: {fileID: 1377405505}
@@ -237,3 +241,4 @@ MonoBehaviour:
   m_Script: {fileID: -1286342211, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialog: {fileID: 100000, guid: 3a6ebe2d7fae541098c86008ae8d0448, type: 2}

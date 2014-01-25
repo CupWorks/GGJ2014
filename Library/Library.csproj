@@ -53,6 +53,7 @@
     <Compile Include="Game\PlayerMovement.cs" />
     <Compile Include="Game\CameraFollow.cs" />
     <Compile Include="Game\Dialog.cs" />
+    <Compile Include="Game\Scaling.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
