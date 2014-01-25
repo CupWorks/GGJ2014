@@ -4,26 +4,30 @@
     <DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Finally the evil Hunk is defeated!</string>
+	    <string>
+Finally the evil Hunk is defeated!</string>
       </Texts>
     </DialogText>
     <DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>I miss him already...</string>
+	    <string>
+I miss him already...</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
 	    <string>Shush, fluffypoo.
-Now we only have to get back home and get married and live happily ever after!</string>
+Now we only have to get back home 
+and get married and live happily ever after!</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>Oh, how delightful...</string>
+	    <string>
+Oh, how delightful...</string>
       </Texts>
     </DialogText>
   </DialogTexts>

@@ -2,10 +2,11 @@
 <DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DialogTexts>
     <DialogText>
-      <Speaker>Priest</Speaker>
+      <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>Candice, do you take Nice Cube to be your husband;
-to live together in the covenant of marriage?</string>
+	    <string>And the priest asked the princess :
+'Candice, do you take Nice Cube to be your husband;
+to live together in the covenant of marriage?'</string>
       </Texts>
     </DialogText>
     <DialogText>
@@ -15,26 +16,33 @@ to live together in the covenant of marriage?</string>
       </Texts>
     </DialogText>
 	<DialogText>
-      <Speaker>Priest</Speaker>
+      <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>And you, Nice Cube, do you take Candice to be your wife;
-to live together in the covenant of marriage?</string>
+	    <string>And then, he asked the prince :
+'And you, Nice Cube, do you take Candice to be your wife;
+to live together in the covenant of marriage?'</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>Actually... I reconsidered.</string>
-		<string>For the first time in my life, I've really had fun.</string>
-		<string>I'm sorry Candice, but I think I am gay and now I finally know it, thanks to Hunk.</string>
-		<string>I will never forgive you for killing him!</string>
+	    <string>
+Actually... I reconsidered.</string>
+		<string>
+For the first time in my life, I've really had fun.</string>
+		<string>I'm sorry Candice, but I think I am gay
+and now I finally know it, thanks to Hunk.</string>
+		<string>
+I will never forgive you for killing him!</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>And so, Nice Cube runs out of the chapel and to this day doesn't live happily ever after.</string>
-		<string>Instead, he holds a grudge against the mean Princess Candice up to this very day.</string>
+	    <string>And so, Nice Cube runs out of the chapel
+and to this day doesn't live happily ever after.</string>
+		<string>Instead, he holds a grudge against the
+mean Princess Candice up to this very day.</string>
       </Texts>
     </DialogText>
   </DialogTexts>

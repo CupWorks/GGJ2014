@@ -4,28 +4,36 @@
     <DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Hah! I outran your beast and you have nowhere to run anymore.</string>
-		<string>Give me my prince back!</string>
+	    <string>Hah!
+I outran your beast and you have 
+nowhere to run anymore.</string>
+		<string>
+Give me my prince back!</string>
       </Texts>
     </DialogText>
     <DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>Uh... Candice...</string>
-		<string>Actually we were having a lot of fun together...</string>
-		<string>I don't wanna go...</string>
+	    <string>
+Uh... Candice...</string>
+		<string>
+Actually we were having a lot of fun together...</string>
+		<string>
+I don't wanna go...</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Shush, honey, I am here now. Everything will be fine.</string>
+	    <string>Shush, honey, I am here now.
+Everything will be fine.</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Hunk</Speaker>
       <Texts>
-	    <string>You will never defeat me!</string>
+	    <string>
+But you will never defeat me!</string>
       </Texts>
     </DialogText>
   </DialogTexts>

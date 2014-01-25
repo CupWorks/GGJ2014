@@ -4,38 +4,46 @@
     <DialogText>
       <Speaker>Hunk</Speaker>
       <Texts>
-	    <string>You will never get him back!</string>
-		<string>He is mine now!</string>
+	    <string>
+You will never get him back!</string>
+		<string>
+He is mine now!</string>
       </Texts>
     </DialogText>
     <DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Oh, of course I will. You, give him back now!</string>
+	    <string>
+Oh, of course I will. You, give him back now!</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>Uh... Candice... Don't you think I can handle this myself?</string>
+	    <string>Uh... Candice... Don't you think I can handle
+this myself?</string>
       </Texts>
     </DialogText>    
 	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Shush, dear, I will rescue you.</string>
+	    <string>
+Shush, dear, I will rescue you.</string>
       </Texts>
     </DialogText>
 	    <DialogText>
       <Speaker>Hunk</Speaker>
       <Texts>
-	    <string>Oh, will you? First you will have to deal with my dog!</string>
+	    <string>Oh, will you?
+First you will have to deal with
+my dog!</string>
       </Texts>
     </DialogText>
 	    <DialogText>
       <Speaker>Dog</Speaker>
       <Texts>
-	    <string>.oO( Plaaaaay?! )</string>
+	    <string>
+.oO( Plaaaaay?! )</string>
       </Texts>
     </DialogText>
   </DialogTexts>

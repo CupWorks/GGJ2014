@@ -4,34 +4,46 @@
     <DialogText>
       <Speaker>Narrator</Speaker>
       <Texts>
+	    <string>
+Once upon a time, in a far away kingdom...</string>
 	    <string>Hunk was very lonely.
 One day, as he was sitting alone in his castle,
 he decided he needed a friend.</string>
-		<string>Someone to hang out with and cuddle.</string>
-		<string>And then, when he heard that Prince Nice Cube was about to marry Princess Candice...</string>
-		<string>He decided to kidnap the Prince.</string>
-		<string>...</string>
-		<string>Because he looked squishy. And cute.</string>
-		<string>So, on the wedding day he carried out his evil plan.</string>
+		<string>
+Someone to hang out with and cuddle.</string>
+		<string>And then, when he heard that Prince 
+Nice Cube was about to marry 
+Princess Candice...</string>
+		<string>
+He decided to kidnap the Prince.</string>
+		<string>
+...</string>
+		<string>
+Because he looked squishy. And cute.</string>
+		<string>So, on the wedding day, he carried out his 
+evil plan.</string>
 	  </Texts>
-    <DialogText>
     </DialogText>
+	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Oh no! My prince is gone! Give him back!</string>
+	    <string>
+Oh no! My prince is gone! Give him back!</string>
       </Texts>
 	</DialogText>
 	<DialogText>
       <Speaker>Hunk</Speaker>
       <Texts>
-		<string>Ah ha ha! Never!</string>
+		<string>
+Ah ha ha! Never!</string>
       </Texts>
     </DialogText>
     <DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
 		<string>I won't let you get away like this.
-I am going to catch you and get my groom back!</string>
+I am going to catch you and get my groom 
+back!</string>
       </Texts>
     </DialogText>
   </DialogTexts>
