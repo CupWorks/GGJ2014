@@ -20,15 +20,16 @@ Oh, of course I will. You, give him back now!</string>
 	<DialogText>
       <Speaker>Prince</Speaker>
       <Texts>
-	    <string>Uh... Candice... Don't you think I can handle
-this myself?</string>
+	    <string>Uh... Candice... 
+Don't you think I can handle this 
+myself?</string>
       </Texts>
     </DialogText>    
 	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
 	    <string>
-Shush, dear, I will rescue you.</string>
+Shush, dear. I will rescue you.</string>
       </Texts>
     </DialogText>
 	    <DialogText>
@@ -36,14 +37,14 @@ Shush, dear, I will rescue you.</string>
       <Texts>
 	    <string>Oh, will you?
 First you will have to deal with
-my dog!</string>
+Schroedinger's dog!</string>
       </Texts>
     </DialogText>
 	    <DialogText>
       <Speaker>Dog</Speaker>
       <Texts>
 	    <string>
-.oO( Plaaaaay?! )</string>
+				.oO( Plaaaaay?! )</string>
       </Texts>
     </DialogText>
   </DialogTexts>

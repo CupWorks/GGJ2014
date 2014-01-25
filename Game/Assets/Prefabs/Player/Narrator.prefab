@@ -8,9 +8,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - 212: {fileID: 21200000}
   m_Layer: 0
-  m_Name: Dialog
+  m_Name: Narrator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,25 +27,29 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!114 &11400000
-MonoBehaviour:
+--- !u!212 &21200000
+SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -705859487, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characters:
-  - {fileID: 100000, guid: 98b3fb1d5951240178a4153911bec33c, type: 2}
-  - {fileID: 100000, guid: f2cbf92d9901d4cd8b7f9671b6d10c2a, type: 2}
-  - {fileID: 100000, guid: 5b4d9d902a8cf4c38818caf93117b313, type: 2}
-  - {fileID: 100000, guid: c7e85d36429fd4cb68333af6db06c3c6, type: 2}
-  - {fileID: 100000, guid: c97cc59b36d314ca4b9880dd8dc8c18c, type: 2}
-  dialogScene: {fileID: 100000, guid: bf2b2ffdef32441f581e769aedfc3578, type: 2}
-  skin: {fileID: 11400000, guid: a2cd830e0ff864a68b08c1f1079e1d65, type: 2}
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300000, guid: d0e658be95e494c7d96c89229cd44bce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

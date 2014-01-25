@@ -4,22 +4,27 @@
     <DialogText>
       <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>And the priest asked the princess :
-'Candice, do you take Nice Cube to be your husband;
+	    <string>
+And the priest asked the princess :</string>
+<string>'Candice,
+do you take Nice Cube to be your husband;
 to live together in the covenant of marriage?'</string>
       </Texts>
     </DialogText>
     <DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>I do.</string>
+	    <string>
+I do.</string>
       </Texts>
     </DialogText>
 	<DialogText>
       <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>And then, he asked the prince :
-'And you, Nice Cube, do you take Candice to be your wife;
+	    <string>
+And then, he asked the prince :</string>
+<string>'And you, Nice Cube,
+do you take Candice to be your wife;
 to live together in the covenant of marriage?'</string>
       </Texts>
     </DialogText>
@@ -27,11 +32,14 @@ to live together in the covenant of marriage?'</string>
       <Speaker>Prince</Speaker>
       <Texts>
 	    <string>
-Actually... I reconsidered.</string>
+Actually...</string>
+		<string>
+I reconsidered.</string>
 		<string>
 For the first time in my life, I've really had fun.</string>
 		<string>I'm sorry Candice, but I think I am gay
-and now I finally know it, thanks to Hunk.</string>
+and now I finally know it.
+Thanks to Hunk.</string>
 		<string>
 I will never forgive you for killing him!</string>
       </Texts>
@@ -39,9 +47,11 @@ I will never forgive you for killing him!</string>
 	<DialogText>
       <Speaker>Narrator</Speaker>
       <Texts>
-	    <string>And so, Nice Cube runs out of the chapel
-and to this day doesn't live happily ever after.</string>
-		<string>Instead, he holds a grudge against the
+	    <string>And so, Nice Cube ran out of the chapel
+and to this day doesn't live 
+happily ever after.</string>
+		<string>Instead,
+he holds a grudge against the
 mean Princess Candice up to this very day.</string>
       </Texts>
     </DialogText>

@@ -25,7 +25,8 @@ I don't wanna go...</string>
 	<DialogText>
       <Speaker>Princess</Speaker>
       <Texts>
-	    <string>Shush, honey, I am here now.
+	    <string>Shush, honey.
+I am here now.
 Everything will be fine.</string>
       </Texts>
     </DialogText>
@@ -34,6 +35,8 @@ Everything will be fine.</string>
       <Texts>
 	    <string>
 But you will never defeat me!</string>
+		<string>
+You're going home in a box!</string>
       </Texts>
     </DialogText>
   </DialogTexts>

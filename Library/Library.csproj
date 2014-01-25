@@ -55,6 +55,7 @@
     <Compile Include="Game\Dialog.cs" />
     <Compile Include="Game\Scaling.cs" />
     <Compile Include="Game\Start.cs" />
+    <Compile Include="Game\Credits.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

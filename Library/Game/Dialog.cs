@@ -65,7 +65,7 @@ namespace Library
 
         public void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetMouseButtonDown(0))
             {
                 GameObject character;
                 loadedCharacters.TryGetValue(DialogScene.GetCurrent().Speaker, out character);

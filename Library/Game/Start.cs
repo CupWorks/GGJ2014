@@ -3,20 +3,25 @@ using UnityEngine;
 
 namespace Library
 {
-    public class Start : MonoBehaviour
-    {
-        protected Rect position = new Rect(300, 300, 200, 75);
-        public GUISkin skin;
+	public class Start : MonoBehaviour
+	{
+		protected Rect positionButton = new Rect(30, 270, 200, 135);
+		protected Rect positionBackground = new Rect(0, 0, 800, 480);
+		public GUISkin skin;
+		public Texture startButton;
+		public Texture background;
 
-        public void OnGUI()
-        {
-            GUI.skin = skin;
+		public void OnGUI()
+		{
+			GUI.skin = skin;
 
-            if (GUI.Button(position, "Start"))
-            {
-                EventBus.Push(Events.CHANGE_SCENE, System.LEVEL_DIALOG_1);
-            }
-        }
-    }
+			GUI.DrawTexture(positionBackground, background);
+          
+			if (GUI.Button(positionButton, startButton))
+			{
+				EventBus.Push(Events.CHANGE_SCENE, System.LEVEL_DIALOG_0);
+			}
+		}
+	}
 }
 

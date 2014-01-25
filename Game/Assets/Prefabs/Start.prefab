@@ -39,6 +39,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skin: {fileID: 11400000, guid: a2cd830e0ff864a68b08c1f1079e1d65, type: 2}
+  startButton: {fileID: 2800000, guid: 021da07d4ef074fb88fcc8cd691761b5, type: 3}
+  background: {fileID: 2800000, guid: 65e959e1f1f9d45f98b0f5eabe7ab240, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
