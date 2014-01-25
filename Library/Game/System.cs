@@ -25,6 +25,8 @@ namespace Library
 
         public void Awake()
         {
+            Screen.SetResolution(900, 480, true);
+
             DontDestroyOnLoad(gameObject);
             EventBus.Register(Events.CHANGE_SCENE, ChangeScene);
             EventBus.Register(Events.CREATE_OBJECT, CreateObject);

@@ -25,6 +25,9 @@ namespace Library
                 EventBus.Push(Events.CREATE_OBJECT, character);
                 GameObject loadedCharacter = GameObject.Find(character.name);
                 loadedCharacter.SetActive(false);
+                loadedCharacter.transform.position = new Vector3(-6, -3, 0);
+                loadedCharacter.transform.localScale = new Vector3(2.8f, 2.8f, 2.8f);
+                loadedCharacter.transform.Rotate(0, 0, 10);
                 loadedCharacters.Add(character.name, loadedCharacter);
             }
         }
@@ -53,7 +56,7 @@ namespace Library
 
             //726, 440
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), screenTexture);
-            GUI.Label(new Rect(230, 280, 670, 200), DialogScene.GetCurrent().GetCurrent());
+            GUI.Label(new Rect(240, 310, 1000, 1000), DialogScene.GetCurrent().GetCurrent());
 
         }
 
