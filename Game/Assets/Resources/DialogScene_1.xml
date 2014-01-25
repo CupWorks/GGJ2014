@@ -2,7 +2,7 @@
 <DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DialogTexts>
     <DialogText>
-      <Speaker>0</Speaker>
+      <Speaker>Princess</Speaker>
       <Texts>
 	    <string>Hunk was very lonely.
 One day, as he was sitting alone in his castle,

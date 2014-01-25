@@ -3,37 +3,37 @@ using System.Collections.Generic;
 
 namespace Library
 {
-	public class DialogText
-	{
-		public int Speaker { get; set; }
+    public class DialogText
+    {
+        public string Speaker { get; set; }
 
-		public List<string> Texts { get; set; }
+        public List<string> Texts { get; set; }
 
-		protected int current = 0;
+        protected int current = 0;
 
-		public DialogText()
-		{
-			Speaker = 0;
-			Texts = new List<string>();
-		}
+        public DialogText()
+        {
+            Speaker = "Princess";
+            Texts = new List<string>();
+        }
 
-		public bool SetNext()
-		{
-			if (current < Texts.Count - 1)
-			{
-				current++;
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
+        public bool SetNext()
+        {
+            if (current < Texts.Count - 1)
+            {
+                current++;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-		public string GetCurrent()
-		{
-			return Texts[current];
-		}
-	}
+        public string GetCurrent()
+        {
+            return Texts[current];
+        }
+    }
 }
 

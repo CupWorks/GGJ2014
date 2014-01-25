@@ -7,7 +7,14 @@ namespace Library
 {
     public class System : MonoBehaviour
     {
+        public const int LEVEL_DIALOG_1 = 0;
+        public const int LEVEL_DIALOG_2 = 1;
+        public const int LEVEL_DIALOG_3 = 2;
+        public const int LEVEL_DIALOG_4 = 3;
+        public const int LEVEL_DIALOG_5 = 4;
+        public GameObject start;
         public GameObject dialog;
+        public bool debugMode;
 
         protected List<Object> SceneObjects { get; set; }
 
@@ -20,6 +27,9 @@ namespace Library
         {
             DontDestroyOnLoad(gameObject);
             EventBus.Register(Events.CHANGE_SCENE, ChangeScene);
+            EventBus.Register(Events.CREATE_OBJECT, CreateObject);
+
+            CreateObject(start);
         }
 
         protected void ChangeScene(object data)
@@ -33,13 +43,30 @@ namespace Library
 
             switch (scene)
             {
-                case 0:
-                    SceneObjects.Add(GameObject.Instantiate(dialog));
+                case LEVEL_DIALOG_1:
+                    CreateObject(dialog);
                     EventBus.Push(Events.DIALOG_LOAD, 1);
+                    EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_2);
                     break;
-                case 1:
-                    SceneObjects.Add(GameObject.Instantiate(dialog));
+                case LEVEL_DIALOG_2:
+                    CreateObject(dialog);
                     EventBus.Push(Events.DIALOG_LOAD, 2);
+                    EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_3);
+                    break;
+                case LEVEL_DIALOG_3:
+                    CreateObject(dialog);
+                    EventBus.Push(Events.DIALOG_LOAD, 3);
+                    EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_4);
+                    break;
+                case LEVEL_DIALOG_4:
+                    CreateObject(dialog);
+                    EventBus.Push(Events.DIALOG_LOAD, 4);
+                    EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_5);
+                    break;
+                case LEVEL_DIALOG_5:
+                    CreateObject(dialog);
+                    EventBus.Push(Events.DIALOG_LOAD, 5);
+                    EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_1);
                     break;
                 default:
                     Debug.Log("Can't load level with ID: " + scene);
@@ -47,15 +74,41 @@ namespace Library
             }
         }
 
+        protected void CreateObject(object prefab)
+        {
+            if (prefab is Object)
+            {
+                GameObject newObject = (GameObject)GameObject.Instantiate((Object)prefab);
+                newObject.transform.parent = gameObject.transform;
+                newObject.name = newObject.name.Replace("(Clone)", "");
+                SceneObjects.Add(newObject);
+            }
+        }
+
         public void OnGUI()
         {
-            if (GUILayout.Button("Scene Dialog 1"))
+            if (debugMode)
             {
-                EventBus.Push(Events.CHANGE_SCENE, 0);
-            }
-            if (GUILayout.Button("Scene Dialog 2"))
-            {
-                EventBus.Push(Events.CHANGE_SCENE, 1);
+                if (GUILayout.Button("Scene Dialog 1"))
+                {
+                    EventBus.Push(Events.CHANGE_SCENE, LEVEL_DIALOG_1);
+                }
+                if (GUILayout.Button("Scene Dialog 2"))
+                {
+                    EventBus.Push(Events.CHANGE_SCENE, LEVEL_DIALOG_2);
+                }
+                if (GUILayout.Button("Scene Dialog 3"))
+                {
+                    EventBus.Push(Events.CHANGE_SCENE, LEVEL_DIALOG_3);
+                }
+                if (GUILayout.Button("Scene Dialog 4"))
+                {
+                    EventBus.Push(Events.CHANGE_SCENE, LEVEL_DIALOG_5);
+                }
+                if (GUILayout.Button("Scene Dialog 5"))
+                {
+                    EventBus.Push(Events.CHANGE_SCENE, LEVEL_DIALOG_5);
+                }
             }
         }
     }
