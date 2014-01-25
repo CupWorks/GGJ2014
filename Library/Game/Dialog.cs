@@ -56,7 +56,7 @@ namespace Library
 
             //726, 440
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), screenTexture);
-            GUI.Label(new Rect(240, 310, 1000, 1000), DialogScene.GetCurrent().GetCurrent());
+            GUI.Label(new Rect(280, 330, 1000, 1000), DialogScene.GetCurrent().GetCurrent());
 
         }
 
