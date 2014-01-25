@@ -10,9 +10,9 @@ namespace Library
 
         protected int NextScene { get; set; }
 
-        public List<GameObject> Characters = new List<GameObject>();
+        public List<GameObject> characters = new List<GameObject>();
+        public GameObject dialogScene;
         public GUISkin skin;
-        public Texture screenTexture;
         protected Dictionary<string, GameObject> loadedCharacters = new Dictionary<string, GameObject>();
 
         public void Awake()
@@ -20,7 +20,8 @@ namespace Library
             EventBus.Register(Events.DIALOG_LOAD, LoadDialog);
             EventBus.Register(Events.SET_NEXT_SCENE, SetNextScene);
 
-            foreach (GameObject character in Characters)
+            EventBus.Push(Events.CREATE_OBJECT, dialogScene);
+            foreach (GameObject character in characters)
             {
                 EventBus.Push(Events.CREATE_OBJECT, character);
                 GameObject loadedCharacter = GameObject.Find(character.name);
@@ -54,10 +55,7 @@ namespace Library
         {
             GUI.skin = skin;
 
-            //726, 440
-            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), screenTexture);
             GUI.Label(new Rect(280, 330, 1000, 1000), DialogScene.GetCurrent().GetCurrent());
-
         }
 
         public void OnDestroy()
