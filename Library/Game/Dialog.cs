@@ -12,6 +12,7 @@ namespace Library
 
         public List<GameObject> Characters = new List<GameObject>();
         public GUISkin skin;
+        public Texture screenTexture;
         protected Dictionary<string, GameObject> loadedCharacters = new Dictionary<string, GameObject>();
 
         public void Awake()
@@ -50,7 +51,10 @@ namespace Library
         {
             GUI.skin = skin;
 
-            GUI.Label(new Rect(0, 0, 500, 500), DialogScene.GetCurrent().GetCurrent());
+            //726, 440
+            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), screenTexture);
+            GUI.Label(new Rect(230, 280, 670, 200), DialogScene.GetCurrent().GetCurrent());
+
         }
 
         public void OnDestroy()
