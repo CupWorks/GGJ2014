@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace Library
 {
-	public class DialogueText
+	public class DialogText
 	{
 		public int Speaker { get; set; }
 
 		public List<string> Texts { get; set; }
 
-		public DialogueText()
+		public DialogText()
 		{
 			Speaker = 0;
 			Texts = new List<string>();
