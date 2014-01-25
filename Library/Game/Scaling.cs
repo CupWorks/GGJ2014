@@ -48,14 +48,14 @@ namespace Library
 						direction.y = Mathf.Abs(direction.y);
 
 						currentScale =  ClampScale(direction,distance,localScale);
-						transform.localScale = currentScale;
+						//transform.localScale = currentScale;
 						break;
 					}
 				}
 			}
 
-			//float speed = Time.deltaTime * scaleSpeed;
-			//transform.localScale = Vector3.Lerp(transform.localScale,currentScale,speed);
+			float speed = Time.deltaTime * scaleSpeed;
+			transform.localScale = Vector3.Lerp(transform.localScale,currentScale,speed);
 		}
 
 		Vector3 ClampScale(Vector3 direction,float distance,Vector3 localScale)
@@ -108,7 +108,8 @@ namespace Library
 					}
 				}
 			}
-			return localScale * movement.GetMoveDirection().x;
+			localScale.x *= movement.GetMoveDirection().x;
+			return localScale;
 		}
 
 

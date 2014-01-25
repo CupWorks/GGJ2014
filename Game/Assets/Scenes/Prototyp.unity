@@ -553,7 +553,7 @@ MonoBehaviour:
   targets:
   - {fileID: 1307582892}
   - {fileID: 961070846}
-  zOffset: 2
+  zOffset: 1.5
 --- !u!1 &201967278
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,7 +4286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: -1, y: 0, z: 0}
-  gravity: {x: 0, y: -1, z: 0}
   speed: 10
 --- !u!212 &961070851
 SpriteRenderer:
@@ -5804,7 +5803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0, z: 0}
-  gravity: {x: 0, y: -1, z: 0}
   speed: 10
 --- !u!212 &1307582898
 SpriteRenderer:
