@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 212: {fileID: 21200004}
   m_Layer: 0
-  m_Name: Human
+  m_Name: Prince
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

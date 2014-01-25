@@ -38,6 +38,11 @@ MonoBehaviour:
   m_Script: {fileID: -705859487, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Characters:
+  - {fileID: 100004, guid: 6d2848d7c4b8b034fb6eb8f46b2ca802, type: 2}
+  - {fileID: 100006, guid: 277c9a0d34ee624469241735fc44448c, type: 2}
+  skin: {fileID: 11400000, guid: a2cd830e0ff864a68b08c1f1079e1d65, type: 2}
+  screenTexture: {fileID: 2800000, guid: 9c93327fc7d164c3aa29099fd4904f37, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
