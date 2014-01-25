@@ -39,8 +39,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 100004, guid: 6d2848d7c4b8b034fb6eb8f46b2ca802, type: 2}
-  - {fileID: 100006, guid: 277c9a0d34ee624469241735fc44448c, type: 2}
+  - {fileID: 100000, guid: 98b3fb1d5951240178a4153911bec33c, type: 2}
+  - {fileID: 100000, guid: f2cbf92d9901d4cd8b7f9671b6d10c2a, type: 2}
+  - {fileID: 100000, guid: 5b4d9d902a8cf4c38818caf93117b313, type: 2}
+  - {fileID: 100000, guid: c7e85d36429fd4cb68333af6db06c3c6, type: 2}
   dialogScene: {fileID: 100000, guid: bf2b2ffdef32441f581e769aedfc3578, type: 2}
   skin: {fileID: 11400000, guid: a2cd830e0ff864a68b08c1f1079e1d65, type: 2}
 --- !u!1001 &100100000

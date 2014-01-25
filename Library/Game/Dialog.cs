@@ -27,7 +27,7 @@ namespace Library
                 GameObject loadedCharacter = GameObject.Find(character.name);
                 loadedCharacter.SetActive(false);
                 loadedCharacter.transform.position = new Vector3(-6, -3, 0);
-                loadedCharacter.transform.localScale = new Vector3(2.8f, 2.8f, 2.8f);
+                loadedCharacter.transform.localScale = new Vector3(2.3f, 2.3f, 2.3f);
                 loadedCharacter.transform.Rotate(0, 0, 10);
                 loadedCharacters.Add(character.name, loadedCharacter);
             }
