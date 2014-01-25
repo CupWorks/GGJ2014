@@ -9,11 +9,30 @@ namespace Library
 
 		public List<string> Texts { get; set; }
 
+		protected int current = 0;
+
 		public DialogText()
 		{
 			Speaker = 0;
 			Texts = new List<string>();
-			Texts.Add("Text");
+		}
+
+		public bool SetNext()
+		{
+			if (current < Texts.Count - 1)
+			{
+				current++;
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		public string GetCurrent()
+		{
+			return Texts[current];
 		}
 	}
 }

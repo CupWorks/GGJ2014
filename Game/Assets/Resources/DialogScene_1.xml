@@ -4,7 +4,9 @@
     <DialogText>
       <Speaker>0</Speaker>
       <Texts>
-	    <string>Hunk was very lonely.\nOne day, as he was sitting alone in his castle,\nhe decided he needed a friend.</string>
+	    <string>Hunk was very lonely.
+One day, as he was sitting alone in his castle,
+he decided he needed a friend.</string>
 		<string>Someone to hang out with and cuddle.</string>
 		<string>And then, when he heard that Prince Nice Cube was about to marry Princess Candice...</string>
 		<string>He decided to kidnap the Prince.</string>
@@ -28,7 +30,8 @@
     <DialogText>
       <Speaker>1</Speaker>
       <Texts>
-		<string>I won't let you get away like this.\nI am going to catch you and get my groom back!</string>
+		<string>I won't let you get away like this.
+I am going to catch you and get my groom back!</string>
       </Texts>
     </DialogText>
   </DialogTexts>

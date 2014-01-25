@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+    <DialogText>
+      <Speaker>2</Speaker>
+      <Texts>
+	    <string>You will never get him back!</string>
+		<string>He is mine now!</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>1</Speaker>
+      <Texts>
+	    <string>Oh, of course I will. You, give him back now!</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>3</Speaker>
+      <Texts>
+	    <string>Uh... Candice... Don't you think I can handle this myself?</string>
+      </Texts>
+    </DialogText>    
+	<DialogText>
+      <Speaker>1</Speaker>
+      <Texts>
+	    <string>Shush, honey, I will rescue you.</string>
+      </Texts>
+    </DialogText>
+	    <DialogText>
+      <Speaker>2</Speaker>
+      <Texts>
+	    <string>Oh, will you? First you will have to deal with my dog!</string>
+      </Texts>
+    </DialogText>
+	    <DialogText>
+      <Speaker>4</Speaker>
+      <Texts>
+	    <string>.oO( Plaaaaay?! )</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

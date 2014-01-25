@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+    <DialogText>
+      <Speaker>0</Speaker>
+      <Texts>
+	    <string>Text</string>
+		<string>Text</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>0</Speaker>
+      <Texts>
+	    <string>Text</string>
+		<string>Text</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

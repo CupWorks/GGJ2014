@@ -21,9 +21,25 @@ namespace Library
 			Debug.Log(DialogScene.DialogTexts.Count);
 		}
 
+		public void OnGUI()
+		{
+			GUI.Label(new Rect(100, 100, 300, 300), DialogScene.GetCurrent().GetCurrent());
+		}
+
 		public void OnDestroy()
 		{
 			EventBus.Unregister(Events.DIALOG_LOAD, LoadDialog);
+		}
+
+		public void Update()
+		{
+			if (Input.GetKeyDown(KeyCode.Return))
+			{
+				if (!DialogScene.GetCurrent().SetNext())
+				{
+					DialogScene.SetNext();
+				}
+			}
 		}
 	}
 }
