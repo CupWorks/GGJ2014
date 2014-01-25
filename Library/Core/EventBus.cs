@@ -42,6 +42,16 @@ namespace Library
 			}
 			listeners.Add(function);
 		}
+
+		public static void Unregister(int eventId, EventFunction function)
+		{
+			List<EventFunction> listeners;
+			EventListener.TryGetValue(eventId, out listeners);
+			if (listeners != null)
+			{
+				listeners.Remove(function);
+			}
+		}
 	}
 }
 

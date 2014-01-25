@@ -50,6 +50,7 @@
     <Compile Include="Common\DialogText.cs" />
     <Compile Include="Game\System.cs" />
     <Compile Include="Core\Events.cs" />
+    <Compile Include="Game\Dialog.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

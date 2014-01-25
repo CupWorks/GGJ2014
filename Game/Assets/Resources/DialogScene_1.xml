@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DialogTexts>
-    <DialogueText>
+    <DialogText>
       <Speaker>0</Speaker>
       <Texts>
 	    <string>Hunk was very lonely.\nOne day, as he was sitting alone in his castle,\nhe decided he needed a friend.</string>
@@ -12,24 +12,24 @@
 		<string>Because he looked squishy. And cute.</string>
 		<string>So, on the wedding day he carried out his evil plan.</string>
 	  </Texts>
-    </DialogueText>
-    <DialogueText>
+    </DialogText>
+    <DialogText>
       <Speaker>1</Speaker>
       <Texts>
 	    <string>Oh no! My prince is gone! Give him back!</string>
       </Texts>
-	</DialogueText>
-	<DialogueText>
+	</DialogText>
+	<DialogText>
       <Speaker>2</Speaker>
       <Texts>
 		<string>Ah ha ha! Never!</string>
       </Texts>
-    </DialogueText>
-    <DialogueText>
+    </DialogText>
+    <DialogText>
       <Speaker>1</Speaker>
       <Texts>
 		<string>I won't let you get away like this.\nI am going to catch you and get my groom back!</string>
       </Texts>
-    </DialogueText>
+    </DialogText>
   </DialogTexts>
 </DialogScene>

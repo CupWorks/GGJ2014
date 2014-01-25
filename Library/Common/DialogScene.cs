@@ -5,11 +5,11 @@ namespace Library
 {
 	public class DialogScene
 	{
-		public List<DialogueText> DialogTexts { get; set; }
+		public List<DialogText> DialogTexts { get; set; }
 
 		public DialogScene()
 		{
-			DialogTexts = new List<DialogueText>();
+			DialogTexts = new List<DialogText>();
 		}
 	}
 }
