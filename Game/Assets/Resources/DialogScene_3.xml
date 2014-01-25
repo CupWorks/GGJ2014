@@ -2,14 +2,14 @@
 <DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <DialogTexts>
     <DialogText>
-      <Speaker>1</Speaker>
+      <Speaker>Princess</Speaker>
       <Texts>
 	    <string>Hah! I outran your beast and you have nowhere to run anymore.</string>
 		<string>Give me my prince back!</string>
       </Texts>
     </DialogText>
     <DialogText>
-      <Speaker>3</Speaker>
+      <Speaker>Prince</Speaker>
       <Texts>
 	    <string>Uh... Candice...</string>
 		<string>Actually we were having a lot of fun together...</string>
@@ -17,13 +17,13 @@
       </Texts>
     </DialogText>
 	<DialogText>
-      <Speaker>1</Speaker>
+      <Speaker>Princess</Speaker>
       <Texts>
 	    <string>Shush, honey, I am here now. Everything will be fine.</string>
       </Texts>
     </DialogText>
 	<DialogText>
-      <Speaker>2</Speaker>
+      <Speaker>Hunk</Speaker>
       <Texts>
 	    <string>You will never defeat me!</string>
       </Texts>
