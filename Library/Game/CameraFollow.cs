@@ -18,7 +18,15 @@ namespace Library
 	{
 
 		[SerializeField] List<GameObject> targets = new List<GameObject>();
+		[SerializeField] float minDistance = 5f;
 		[SerializeField] float zOffset = 2;
+
+		float maxDistance = 10f;
+
+		void Start()
+		{
+			maxDistance = camera.orthographicSize;
+		}
 		void LateUpdate () 
 		{	
 			GameObject[] targets = this.targets.ToArray();
@@ -30,8 +38,10 @@ namespace Library
 			float distance = DistanceTo(targets,position);
 			float speed = velocity.magnitude * Time.deltaTime;
 
-			camera.orthographicSize = Mathf.Lerp(camera.orthographicSize,distance /zOffset,Time.deltaTime);
+			distance =  Mathf.Lerp(camera.orthographicSize,distance /zOffset,Time.deltaTime);
+			camera.orthographicSize = Mathf.Clamp(distance,minDistance,maxDistance);
 			position.z = transform.position.z;
+
 			transform.position = Vector3.Lerp(transform.position,position,Time.deltaTime);
 		}
 
