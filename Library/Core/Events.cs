@@ -9,6 +9,7 @@ namespace Library
         public const int CHANGE_SCENE = 10000;
         public const int CREATE_OBJECT = 2000;
         public const int PLAY_SOUND = 3000;
+        public const int SET_IMAGE = 1337;
     }
 }
 
