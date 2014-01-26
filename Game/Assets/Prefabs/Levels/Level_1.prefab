@@ -16350,8 +16350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targets:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 101002}
+  - {fileID: 101008}
   minDistance: 5
   zOffset: 1.5
 --- !u!124 &12400000
