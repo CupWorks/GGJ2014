@@ -13,7 +13,7 @@ namespace Library
 
 		const float GRAVITY = 15f;
 		Vector2 gravitation = new Vector2(0,-1f);
-
+		Vector3 startPosition = Vector3.zero;
 		void Start()
 		{
 			Vector3 scale = transform.localScale;
@@ -27,6 +27,7 @@ namespace Library
 				moveDirection = MoveDirection.Left;
 				direction = -Vector2.right;
 			}
+			startPosition = transform.position;
 		}
 
 		void FixedUpdate() 
@@ -101,6 +102,20 @@ namespace Library
 				return 1;
 			default:
 				return 0;
+			}
+		}
+
+		public void ResetPosition()
+		{
+			transform.position = startPosition;
+		}
+
+		void OnCollisionEnter2D(Collision2D other)
+		{
+			if(other.transform.tag == "NPC")
+			{
+				other.transform.GetComponent<PlayerMovement>().ResetPosition();
+				ResetPosition();
 			}
 		}
 	}
