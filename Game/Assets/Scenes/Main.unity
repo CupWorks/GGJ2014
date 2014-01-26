@@ -171,7 +171,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: .0196078438}
+  m_BackGroundColor: {r: .117647059, g: .129411772, b: .117647059, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -244,6 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 100000, guid: 5593609d1d3c049aa978b0e60b6d5246, type: 2}
   dialog: {fileID: 100000, guid: 3a6ebe2d7fae541098c86008ae8d0448, type: 2}
+  credits: {fileID: 100000, guid: babe967ffb130482eae8cd4973b4b701, type: 2}
   debugMode: 0
   audioFiles:
   - {fileID: 8300000, guid: ef34a626de684488b8fdf09d40978267, type: 3}

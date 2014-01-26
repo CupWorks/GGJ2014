@@ -13,12 +13,15 @@ namespace Library
 		public const int LEVEL_DIALOG_3 = 3;
 		public const int LEVEL_DIALOG_4 = 4;
 		public const int LEVEL_DIALOG_5 = 5;
+		public const int LEVEL_CREDITS = 6;
+		public const int LEVEL_START = 7;
 		public const string SOUND_SMALL = "small";
 		public const string SOUND_NORMAL = "normal";
 		public const string SOUND_TALL = "tall";
 		public const string SOUND_DEATH = "death";
 		public GameObject start;
 		public GameObject dialog;
+		public GameObject credits;
 		public bool debugMode;
 		public List<AudioClip> audioFiles = new List<AudioClip>();
 
@@ -95,6 +98,12 @@ namespace Library
 					CreateObject(dialog);
 					EventBus.Push(Events.DIALOG_LOAD, 5);
 					EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_0);
+					break;
+				case LEVEL_CREDITS:
+					CreateObject(credits);
+					break;
+				case LEVEL_START:
+					CreateObject(start);
 					break;
 				default:
 					Debug.Log("Can't load level with ID: " + scene);

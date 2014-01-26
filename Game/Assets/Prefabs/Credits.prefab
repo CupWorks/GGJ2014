@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Credits
   m_TagString: Untagged
@@ -26,6 +27,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -527689603, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiSkin: {fileID: 11400000, guid: a2cd830e0ff864a68b08c1f1079e1d65, type: 2}
+  background: {fileID: 2800000, guid: 8e5278c2aafcf4b568f875f5a6c153ae, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
