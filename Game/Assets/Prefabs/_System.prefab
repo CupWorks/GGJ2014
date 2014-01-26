@@ -160,12 +160,15 @@ MonoBehaviour:
   dialog: {fileID: 100000, guid: 3a6ebe2d7fae541098c86008ae8d0448, type: 2}
   credits: {fileID: 100000, guid: babe967ffb130482eae8cd4973b4b701, type: 2}
   image: {fileID: 100000, guid: 81c43c003b56d4fe7b28bb543e331058, type: 2}
+  play: {fileID: 100000, guid: 4a4d05b6b41424ca7b2e701c75b180ab, type: 2}
   levelBackgrounds:
   - {fileID: 100000, guid: 9b9f6d512e8b84bc1bb6eb2562866724, type: 2}
   - {fileID: 100000, guid: 7bd4ecf93928e45eba6b4564c9f14c7e, type: 2}
   - {fileID: 100000, guid: f18bf95dfc5674d65aec9b0830fdb142, type: 2}
   - {fileID: 100000, guid: d6d76cb0a6d164c9587f707c30ea6005, type: 2}
   - {fileID: 100000, guid: 5d0c1b580a6cd4b55a1310b5c6a34b96, type: 2}
+  playLevels:
+  - {fileID: 100994, guid: 73d8cbed291b20c40843450c539741a1, type: 2}
   debugMode: 0
   audioFiles:
   - {fileID: 8300000, guid: ef34a626de684488b8fdf09d40978267, type: 3}

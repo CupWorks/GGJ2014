@@ -145,6 +145,10 @@ Prefab:
       propertyPath: playLevels.Array.data[4]
       value: 
       objectReference: {fileID: 100386, guid: 0ba90362f02dc7c42a8aff588d215a07, type: 2}
+    - target: {fileID: 100000, guid: 7856f959110204070a1b10923c6fc36e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7856f959110204070a1b10923c6fc36e, type: 2}
   m_RootGameObject: {fileID: 1377405505}
@@ -163,8 +167,8 @@ GameObject:
   - 124: {fileID: 996817428}
   - 81: {fileID: 996817427}
   m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Name: DefaultCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -152,6 +152,7 @@ namespace Library
 					EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_6);
 					break;
 				case LEVEL_PLAY_1:
+					GameObject.Find("DefaultCamera").SetActive(false);
 					CreateObject(play);
 					CreateObject(playLevels[0]);
 					EventBus.Push(Events.SET_NEXT_SCENE, LEVEL_DIALOG_6);

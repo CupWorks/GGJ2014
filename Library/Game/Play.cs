@@ -16,6 +16,16 @@ namespace Library
 		{
 			NextScene = (int)data;
 		}
+
+		public void LevelCompleted(object data)
+		{
+			bool completed = (bool)data;
+
+			if (completed)
+			{
+				EventBus.Push(Events.CHANGE_SCENE, NextScene);
+			}
+		}
 	}
 }
 
