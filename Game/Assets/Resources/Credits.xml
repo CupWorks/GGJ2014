@@ -67,6 +67,17 @@
 		<string>and everyone else who endured our presence!</string>
       </Texts>
     </DialogText>
+    <DialogText>
+      <Texts>
+		<string>
+
+
+
+And, since they say 'Everything is better with a penis'</string>
+		<string>
+PENIS!</string>
+      </Texts>
+    </DialogText>
   </DialogTexts>
 </DialogScene>
 	

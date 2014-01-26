@@ -36,7 +36,7 @@ namespace Library
         public void LoadDialog(object data)
         {
             int dialog = (int)data;
-            DialogScene = Serializer.Deserialize<DialogScene>("DialogScene_" + dialog + ".xml");
+            DialogScene = Serializer.Deserialize<DialogScene>("DialogScene_" + dialog);
 
             GameObject character;
             loadedCharacters.TryGetValue(DialogScene.GetCurrent().Speaker, out character);
@@ -79,6 +79,7 @@ namespace Library
                     if (!DialogScene.SetNext())
                     {
                         EventBus.Push(Events.CHANGE_SCENE, NextScene);
+                        EventBus.Push(Events.PLAY_SOUND, System.SOUND_CLICK);
                     }
                 }
 
