@@ -172,7 +172,6 @@ MonoBehaviour:
   - {fileID: 100904, guid: 8f406bc60d3527a4ebed39388721db53, type: 2}
   - {fileID: 100864, guid: b55ed52fd040bd24f9dd8da3474e2d14, type: 2}
   - {fileID: 100186, guid: 3464bfc177097fc478b5c280a072bcaa, type: 2}
-  - {fileID: 100386, guid: 0ba90362f02dc7c42a8aff588d215a07, type: 2}
   debugMode: 0
   audioFiles:
   - {fileID: 8300000, guid: ef34a626de684488b8fdf09d40978267, type: 3}

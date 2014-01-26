@@ -9,22 +9,16 @@
 //------------------------------------------------------------------------------
 using System;
 using UnityEngine;
+
 namespace Library
 {
 	public class Goal : MonoBehaviour
 	{
 		void OnTriggerEnter2D(Collider2D other)
 		{
-			if(other.tag == "Player")
+			if (other.tag == "Player")
 			{
-				Debug.Log("Next Scene");
-				Animator animator = transform.parent.GetComponent<Animator>();
-				if(animator && !animator.enabled)
-				{
-					//animator. animator.GetNextAnimationClipState(1);
-					Destroy(this);
-					animator.enabled = true;
-				}
+				EventBus.Push(Events.LEVEL_COMPLETED, true);
 			}
 		}
 	}
