@@ -11,8 +11,6 @@ GameObject:
   - 212: {fileID: 21200000}
   - 50: {fileID: 5000000}
   - 61: {fileID: 6100000}
-  - 114: {fileID: 11400002}
-  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Prince
   m_TagString: Untagged
@@ -113,31 +111,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 2.3499999, y: 1.98000002}
   m_Center: {x: 0, y: -.219999999}
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1481419688, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: -1, y: 0, z: 0}
-  speed: 10
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1369062634, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleSpeed: 10
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

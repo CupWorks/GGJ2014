@@ -30,6 +30,7 @@ namespace Library
         public GameObject credits;
         public GameObject image;
         public GameObject[] levelBackgrounds;
+        public GameObject[] playLevels;
         public bool debugMode;
         public List<AudioClip> audioFiles = new List<AudioClip>();
 

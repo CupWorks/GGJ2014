@@ -2312,8 +2312,6 @@ GameObject:
   - 212: {fileID: 187469713}
   - 50: {fileID: 187469712}
   - 61: {fileID: 187469711}
-  - 114: {fileID: 187469710}
-  - 114: {fileID: 187469709}
   m_Layer: 8
   m_Name: Prince
   m_TagString: Untagged
@@ -2334,31 +2332,6 @@ Transform:
   - {fileID: 874268572}
   - {fileID: 134241875}
   m_Father: {fileID: 0}
---- !u!114 &187469709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: c7e85d36429fd4cb68333af6db06c3c6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1131860307}
-  m_GameObject: {fileID: 187469707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1481419688, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
---- !u!114 &187469710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: c7e85d36429fd4cb68333af6db06c3c6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1131860307}
-  m_GameObject: {fileID: 187469707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1369062634, guid: c4c1950ed684d483bb7898a0d2f60dc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &187469711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15374,7 +15347,7 @@ Prefab:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: c7e85d36429fd4cb68333af6db06c3c6, type: 2}
+    - target: {fileID: 0}
       propertyPath: scaleSpeed
       value: 5
       objectReference: {fileID: 0}
