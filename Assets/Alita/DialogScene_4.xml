@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+    <DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>
+Finally the evil Hunk is defeated!</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>Prince</Speaker>
+      <Texts>
+	    <string>
+I miss him already...</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>Shush, fluffypoo.
+Now we only have to get back home 
+and get married and live happily ever after!</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>Prince</Speaker>
+      <Texts>
+	    <string>
+Oh, how delightful...</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

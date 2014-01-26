@@ -1,0 +1,12 @@
+## Directory structure ##
+
+- Assets -> WIP assets and files
+- Library -> C# dll project
+- Game -> Unity Projects
+
+## Compile ##
+
+1. open CubeGame.sln
+2. build project
+3. open and build poject with Unity
+

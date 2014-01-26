@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+    <DialogText>
+      <Speaker>Hunk</Speaker>
+      <Texts>
+	    <string>
+You will never get him back!</string>
+		<string>
+He is mine now!</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>
+Oh, of course I will. You, give him back now!</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>Prince</Speaker>
+      <Texts>
+	    <string>Uh... Candice... 
+Don't you think I can handle this 
+myself?</string>
+      </Texts>
+    </DialogText>    
+	<DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>
+Shush, dear. I will rescue you.</string>
+      </Texts>
+    </DialogText>
+	    <DialogText>
+      <Speaker>Hunk</Speaker>
+      <Texts>
+	    <string>Oh, will you?
+First you will have to deal with
+Schroedinger's dog!</string>
+      </Texts>
+    </DialogText>
+	    <DialogText>
+      <Speaker>Dog</Speaker>
+      <Texts>
+	    <string>
+				.oO( Plaaaaay?! )</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+    <DialogText>
+      <Speaker>Narrator</Speaker>
+      <Texts>
+	    <string>
+And the priest asked the princess :</string>
+<string>'Candice,
+do you take Nice Cube to be your husband;
+to live together in the covenant of marriage?'</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>
+I do.</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>Narrator</Speaker>
+      <Texts>
+	    <string>
+And then, he asked the prince :</string>
+<string>'And you, Nice Cube,
+do you take Candice to be your wife;
+to live together in the covenant of marriage?'</string>
+      </Texts>
+    </DialogText>
+	<DialogText>
+      <Speaker>Prince</Speaker>
+      <Texts>
+	    <string>
+Actually...</string>
+		<string>
+I reconsidered.</string>
+		<string>
+For the first time in my life, I've really had fun.</string>
+		<string>I'm sorry Candice, but I think I am gay
+and now I finally know it.
+Thanks to Hunk.</string>
+		<string>
+I will never forgive you for killing him!</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

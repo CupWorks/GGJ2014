@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+      <DialogText>
+      <Texts>
+		<string>Global Game Jam 2014</string>
+		<string>@ SAE Hamburg</string>
+		<string>Team 'HyperCube'</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Sebastian Ahrens</string>
+		<string>Central Creative Content Consultant</string>
+		<string>Level Design, Game Art</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Christoph 'The Cup' Becher</string>
+		<string>Chief Vice President of Systematic Garbage Collection</string>
+		<string>Programming</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+	    <string>Benedikt Bessen</string>
+		<string>Chief Executive Facility Manager</string>
+		<string>Programming</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Peter Mann</string>
+		<string>Creative Ambassador of Awesomeness</string>
+		<string>Game Art</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Kjell Nehring</string>
+		<string>General of Drama</string>
+		<string>Game Design, Level Design, Game Art</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Alita 'The Nut' Pantea</string>
+		<string>Hot Secretary and Senior Vice President of Storybullshitting</string>
+		<string>Storyboard, Script, Directing</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Felix 'The Last Highlander' Strele</string>
+		<string>Chief Commander of Colour, Music and Beauty</string>
+		<string>Level Design, Game Art, Sound</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>Special Thanks to</string>
+		<string>CupWorks.net</string>
+		<string>InnoGames</string>
+		<string>Unity Technologies</string>
+		<string>SAE Hamburg</string>
+		<string>and everyone else who endured our presence!</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Texts>
+		<string>
+
+
+
+And, since they say 'Everything is better with a penis'</string>
+		<string>
+PENIS!</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>
+	
+	
+
+
+
+
+
+

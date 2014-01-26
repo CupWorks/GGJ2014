@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+	<DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+	    <string>
+Oh no! My prince is gone! Give him back!</string>
+      </Texts>
+	</DialogText>
+	<DialogText>
+      <Speaker>Hunk</Speaker>
+      <Texts>
+		<string>
+Ah ha ha! Never!</string>
+      </Texts>
+    </DialogText>
+    <DialogText>
+      <Speaker>Princess</Speaker>
+      <Texts>
+		<string>I won't let you get away like this.
+I am going to catch you and get my groom 
+back!</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>

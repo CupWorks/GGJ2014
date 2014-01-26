@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DialogScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DialogTexts>
+	<DialogText>
+      <Speaker>Narrator</Speaker>
+      <Texts>
+	    <string>And so, Nice Cube ran out of the chapel
+and to this day doesn't live 
+happily ever after.</string>
+		<string>Instead,
+he holds a grudge against the
+mean Princess Candice up to this very day.</string>
+      </Texts>
+    </DialogText>
+  </DialogTexts>
+</DialogScene>
